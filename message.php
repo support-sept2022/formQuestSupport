@@ -1,12 +1,3 @@
-<?php
-$name = $_POST['user_name'];
-$lastName = $_POST['user_firstName'];
-$subject = $_POST['subject'];
-$email = $_POST['user_email'];
-$message = $_POST['user_message'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,11 +11,9 @@ $message = $_POST['user_message'];
 <body>
 <main>
     <div>
+
         <p>
-            Merci <?= $name ?> <?= $lastName ?> de nous avoir contacté à propos de <?= $subject ?>.
-            Un de nos conseillers vous contactera soit à l’adresse <?= $email ?> ou par téléphone au <?=  $_POST['user_phoneNumber'] ?> dans les
-            plus brefs délais pour traiter votre demande :
-            <?= $message ?>
+            Merci de votre contact.
         </p>
     </div>
 </main>
