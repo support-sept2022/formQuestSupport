@@ -22,7 +22,7 @@ if (!isset($data['user_phoneNumber']) || empty($data['user_phoneNumber']))
     $errors[] = "Le tél est obligatoire.";
 
     if (empty($errors)) {
-        header('location: message.php');
+        header('location: thank.php');
     }
 
 }
